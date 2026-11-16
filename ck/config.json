@@ -1,0 +1,16 @@
+{
+  "_note": "Çengelköy tunables. Numbers only; anything missing keeps the app default. adMinutes = minutes between interstitials, adGap = puzzles between interstitials, interstitials/rewarded = 1 on, 0 off.",
+  "adMinSolves": 5,
+  "adMinDays": 2,
+  "adGap": 3,
+  "adMinutes": 4,
+  "adWords": 3,
+  "adGold": 30,
+  "adGoldDay": 5,
+  "giftBase": 20,
+  "giftStep": 5,
+  "giftMaxDays": 6,
+  "invite": 30,
+  "interstitials": 1,
+  "rewarded": 1
+}
