@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Çengelköy: Çengel Bulmaca</title>
+<meta name="description" content="Gazetedeki gibi çengel bulmaca: her gün yeni bulmaca, 81 il turu, meydan okumalar.">
+<meta property="og:title" content="Çengelköy: Çengel Bulmaca"><meta property="og:description" content="Gazetedeki bulmaca, cebinde. Sen de çöz!">
+<meta name="apple-itunes-app" content="app-id=6834734612">
+<style>
+:root{--bg:#f5eee2;--ink:#22302a;--muted:#6b6458;--green:#1d7a57;--card:#fffaf1}
+@media (prefers-color-scheme:dark){:root{--bg:#14110e;--ink:#efe7d8;--muted:#a69d8e;--card:#201b16}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,system-ui,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px 16px}
+main{max-width:420px;width:100%;text-align:center}
+h1{font:800 40px/1.1 Georgia,serif;margin:8px 0 4px}p{color:var(--muted);margin:6px 0 20px}
+.tiles{font:800 28px Georgia,serif;letter-spacing:6px;color:var(--green)}
+.card{background:var(--card);border-radius:20px;padding:22px 18px;margin:18px 0;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.code{font:700 22px ui-monospace,monospace;letter-spacing:2px;color:var(--green)}
+a.btn{display:block;background:var(--green);color:#fff;text-decoration:none;font-weight:800;border-radius:14px;padding:15px;margin:10px 0}
+a.btn.alt{background:transparent;color:var(--green);border:2px solid var(--green)}
+small{color:var(--muted)}
+</style></head><body><main>
+<div class="tiles">Ç Ğ İ Ö Ş Ü</div>
+<h1>Çengelköy</h1>
+<p>Gazetedeki gibi çengel bulmaca: her gün yeni bulmaca, 81 il turu, İstanbul ve Dünya turları.</p>
+<div class="card" id="chal" hidden>
+  <b>🎯 Sana meydan okundu!</b>
+  <p style="margin:8px 0">Aynı bulmacayı çöz, arkadaşının süresini geç.</p>
+  <div class="code" id="code"></div>
+  <a class="btn" id="open" href="#">Uygulamada aç</a>
+  <small>Uygulama yoksa önce indir, sonra bu bağlantıya tekrar dokun ya da 🎯 Meydan Oku'ya kodu yaz.</small>
+</div>
+<a class="btn" href="https://apps.apple.com/app/id6834734612">App Store'dan indir</a>
+<a class="btn alt" href="/cengelkoy-destek/">Destek ve gizlilik</a>
+</main>
+<script>
+var c=(new URLSearchParams(location.search).get('c')||'').toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,24);
+if(c){document.getElementById('chal').hidden=false;document.getElementById('code').textContent=c;document.getElementById('open').href='cengelkoy://kod/'+c}
+</script>
+</body></html>

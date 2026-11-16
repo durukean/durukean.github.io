@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["T37B6B6S7K.com.durukan.cengelkoy"],
+        "components": [ { "/": "/k/*", "comment": "challenge codes and invites" } ]
+      }
+    ]
+  }
+}
