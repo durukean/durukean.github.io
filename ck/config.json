@@ -1,5 +1,5 @@
 {
-  "_note": "Çengelköy tunables. Numbers only; anything missing keeps the app default. adMinutes = minutes between interstitials, adGap = puzzles between interstitials, interstitials/rewarded = 1 on, 0 off.",
+  "_note": "Çengelköy tunables. Numbers only; anything missing keeps the app default. adMinutes = minutes between interstitials, adGap = puzzles between interstitials, interstitials/rewarded = 1 on, 0 off. lifetime = 1 shows the one-time Ömür boyu Plus row, 0 hides it (owners keep it).",
   "adMinSolves": 5,
   "adMinDays": 2,
   "adGap": 3,
@@ -12,5 +12,6 @@
   "giftMaxDays": 6,
   "invite": 30,
   "interstitials": 1,
-  "rewarded": 1
+  "rewarded": 1,
+  "lifetime": 1
 }
